@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "message": "Hello, world!"
+  },
+  {
+    "id": 2,
+    "name": "Alice Smith",
+    "message": "This is a sample message."
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "message": "Express.js is awesome!"
+  }
+]
