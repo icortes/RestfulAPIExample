@@ -24,13 +24,13 @@ const writeData = async (data) => {
 };
 
 // GET route to retrieve all messages
-app.get('/messages', async (req, res) => {
+app.get('api/messages', async (req, res) => {
   const data = await readData();
   res.json(data);
 });
 
 // GET route to retrieve a single message by ID
-app.get('/messages/:id', async (req, res) => {
+app.get('api/messages/:id', async (req, res) => {
   const { id } = req.params;
 
   const data = await readData();
@@ -44,7 +44,7 @@ app.get('/messages/:id', async (req, res) => {
 });
 
 // POST route to add a new message
-app.post('/messages', async (req, res) => {
+app.post('api/messages', async (req, res) => {
   const { name, message } = req.body;
 
   if (!name || !message) {
@@ -62,7 +62,7 @@ app.post('/messages', async (req, res) => {
 });
 
 // PUT route to update a message by ID
-app.put('/messages/:id', async (req, res) => {
+app.put('api/messages/:id', async (req, res) => {
   const { id } = req.params;
   const { name, message } = req.body;
 
@@ -80,7 +80,7 @@ app.put('/messages/:id', async (req, res) => {
 });
 
 // DELETE route to delete a message by ID
-app.delete('/messages/:id', async (req, res) => {
+app.delete('api/messages/:id', async (req, res) => {
   const { id } = req.params;
 
   const data = await readData();
