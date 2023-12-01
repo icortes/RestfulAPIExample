@@ -13,10 +13,5 @@
     "id": 3,
     "name": "Bob Johnson",
     "message": "Express.js is awesome!"
-  },
-  {
-    "id": 4,
-    "name": "Isaac Cortes",
-    "message": "Hello World!"
   }
 ]
