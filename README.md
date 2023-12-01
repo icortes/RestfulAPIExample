@@ -24,8 +24,8 @@ Follow the steps below to set up and run the application locally.
    ```bash
    npm start
 5. Open your web browser or use a tool like Postman to interact with the API.
-     * To retrieve all messages: GET http://localhost:3000/messages
-     * To retrieve a single message by ID: GET http://localhost:3000/messages/:id
-     * To add a new message: POST http://localhost:3000/messages
-     * To update a message by ID: PUT http://localhost:3000/messages/:id
-     * To delete a message by ID: DELETE http://localhost:3000/messages/:id
+     * To retrieve all messages: GET http://localhost:3000/api/messages
+     * To retrieve a single message by ID: GET http://localhost:3000/api/messages/:id
+     * To add a new message: POST http://localhost:3000/api/messages
+     * To update a message by ID: PUT http://localhost:3000/api/messages/:id
+     * To delete a message by ID: DELETE http://localhost:3000/api/messages/:id
